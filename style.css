@@ -14,7 +14,6 @@ html, body{
 }
 
 .container {    
-
     text-align: center;
     align-content: center;
     margin: auto;
@@ -42,4 +41,35 @@ html, body{
 
 .link i {
     font-size: 22px;
+    color: black;
+    margin: 8px;
+}
+
+/* About */
+.about{
+    height: 100%;
+}
+
+.skills{
+    height: 100%;
+}
+
+.education{
+    height: 100%;
+}
+
+.experience{
+    height: 100%;
+}
+
+/* Skills */
+/* Education */
+/* Experience */
+
+
+
+/* Footer */
+.footer{
+    padding: 20px 40px 20px 40px;    
+    background-color: grey;
 }
