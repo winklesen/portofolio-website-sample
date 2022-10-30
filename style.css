@@ -6,15 +6,42 @@ html, body{
     font-family: Poppins;    
 }
 
+/* Header */
 .header{    
     height: 100%;
     background-color: #fcba03;
     color: black;
-
 }
 
-.container {    
+/* Navbar */
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  overflow: hidden;
+  background-color: #333;
+  /* position: sticky;   */
+}
 
+.navbar li {
+    float: left;
+}
+
+.navbar li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover{
+    background-color: #111;
+}
+
+/* Container */
+.banner {    
     text-align: center;
     align-content: center;
     margin: auto;
@@ -42,4 +69,109 @@ html, body{
 
 .link i {
     font-size: 22px;
+    color: #111;
+    text-decoration: none;
+}
+
+/* Content */
+.container{
+    height: 100%;
+    color: white;
+    padding: 48px 48px 48px 48px;
+}
+
+.about{    
+    height: 100%;
+    background-color: #CC2C4C;    
+}
+
+.title{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.skills{
+    height: 100%;
+    background-color: #28AC3C;
+}
+
+.skills-icon {
+    font-size: 80px;
+}
+
+.skills-icon i {
+    font-size: 80px;
+}
+
+/* .education{
+    height: 100%;
+    background-color: #26A746;
+
+} */
+
+.experience{
+    height: 100%;
+    background-color: #52AAA6;    
+}
+
+.row{
+    box-sizing: border-box;    
+    margin-top: 20px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;    
+    width: 30%;    
+    margin-right: 3%;
+  }
+
+  .subtitle{
+    
+  }
+  .content{
+
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+.contact{
+    height: 100%;
+    background-color: #9948C2;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #24a19b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #52AAA6;
+  }
+
+.footer{
+    padding: 20px 40px 20px 40px;    
+    background-color: grey;
+    color: white;
 }
