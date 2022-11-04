@@ -175,4 +175,26 @@ input[type=text], select, textarea {
     padding: 20px 40px 20px 40px;    
     background-color: grey;
     color: white;
+
+}
+
+.education{
+    height: 100%;
+}
+
+.experience{
+    height: 100%;
+}
+
+/* Skills */
+/* Education */
+/* Experience */
+
+
+
+/* Footer */
+.footer{
+    padding: 20px 40px 20px 40px;    
+    background-color: grey;
+
 }
